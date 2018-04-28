@@ -1,0 +1,12 @@
+*.o
+*.so
+*.rlib
+*.dll
+*.exe
+*.iso
+
+build/**
+
+**/target/*
+Cargo.lock
+**/*.rs.bk
