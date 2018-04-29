@@ -1,0 +1,10 @@
+[package]
+name = "rost"
+version = "0.1.0"
+authors = ["Philipp Muens"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+rlibc = "1.0"

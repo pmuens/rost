@@ -11,3 +11,6 @@ RUN apt-get install -y --no-install-recommends \
   grub-pc-bin \
   xorriso \
   qemu-kvm
+
+# install rust specific packages and components
+RUN cargo install xargo && rustup component add rust-src
